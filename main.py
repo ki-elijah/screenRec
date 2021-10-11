@@ -4,7 +4,7 @@ import pyautogui
 
 ss = (1600,900)
 fourcc = cv2.VideoWriter_fourcc(*"XVID")
-out = cv2.VideoWriter("output.avi", fourcc, 60.0, (ss))
+out = cv2.VideoWriter("output.avi", fourcc, 3.0, (ss))
 
 while True:
     img = pyautogui.screenshot()
